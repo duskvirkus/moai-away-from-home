@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+#mapid {
+    height: 100%;
+}
+
+h1 {
+    /* position: fixed; */
+    /* top: 3rem; */
+    z-index: 1000;
+    /* right: 3rem; */
+    margin: 2vh;
+}
+
+.h1-container {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 10rem;
+    background: linear-gradient(0deg,rgba(255,255,255,0) 0%, rgba(255, 255, 255,1) 100%);
+    top: 0px;
+}
+
+.height-800 {
+    height: 96vh;
+}
+
+.margin-top-100 {
+    margin-top: 100px
+}
+
+.main-container {
+    margin: 2vh;
+}
